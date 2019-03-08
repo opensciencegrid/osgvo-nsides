@@ -18,6 +18,8 @@ RUN yum -y install \
            python-pip \
            wgrib \
            wgrib2
+           
+RUN yum -y remove numpy
 
 RUN pip install --upgrade pip
 
