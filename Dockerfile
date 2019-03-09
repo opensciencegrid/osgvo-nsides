@@ -28,7 +28,6 @@ RUN pip install --upgrade numpy
 RUN pip install --upgrade pyproj
 RUN pip install --upgrade matplotlib --ignore-installed pyparsing
 RUN pip install --upgrade https://github.com/matplotlib/basemap/archive/v1.1.0.tar.gz
-RUN pip install --upgrade pygrib
 RUN pip install --upgrade sklearn
 
 # build info
